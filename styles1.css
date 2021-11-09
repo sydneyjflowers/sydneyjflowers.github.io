@@ -6,13 +6,19 @@ body {
 
 
 }
-.assignment {
+.assignments {
     display:flex;
+    flex-wrap:wrap;
+}
+.assignment {
+
+    width:22%;
     padding:10px;
     margin:10px;
+    padding: 20px 10px;
     background:#99A638;
     border-radius:5px;
-    
+   
 
 
 
@@ -21,6 +27,9 @@ body {
     width:200px;
     margin: 10px;
     border:2px solid #707326
+    display block;
+    margin:auto;
+    
 
 }
 .assignment img:hover{
@@ -30,6 +39,9 @@ h1 {
     color:#4F5902
    text-align center;
 
+}
+h2{
+    text-align:center;
 }
 a {
     text-decoration:none;
